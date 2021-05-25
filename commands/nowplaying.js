@@ -22,11 +22,11 @@ module.exports = {
             function createBar(player)
             {
                 try{
-                    if (!player.queue.current) return `**"[""🔘""▬".repeat(size - 1)}]**\n**00:00:00 / 00:00:00**`;
+                    if (!player.queue.current) return `**"[""▇""—".repeat(size - 1)}]**\n**00:00:00 / 00:00:00**`;
                     let current = player.queue.current.duration !== 0 ? player.position : player.queue.current.duration;
                     let total = player.queue.current.duration;
                     let size = 15;
-                    let bar = String("| ") + String("🔘").repeat(Math.round(size * (current / total))) + String("▬").repeat(size - Math.round(size * (current / total))) + String(" |");
+                    let bar = String("|") + String("▇").repeat(Math.round(size * (current / total))) + String("—").repeat(size - Math.round(size * (current / total))) + String("|");
                     return `**${bar}**\n**${new Date(player.position).toISOString().substr(11, 8)+" / "+(player.queue.current.duration==0?" ◉ LIVE":new Date(player.queue.current.duration).toISOString().substr(11, 8))}**`;
                   }catch (e){
                     console.log(String(e.stack).bgRed)
