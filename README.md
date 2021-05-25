@@ -15,7 +15,7 @@
 - In `conifg.json` file in `4` & `5` lines Those are spotify id and secret to play music those are very important and u can replce if u have
 - In `config.json` file in `6` , `7` & `8` lines Those are the lavalink server details 
 - Install all the packages by typing `npm i`
-- Start the bot by typing `node index.js`
+- Start the bot by typing `node .`
 - Now Your Bot is Ready
 
 ### config.json file
