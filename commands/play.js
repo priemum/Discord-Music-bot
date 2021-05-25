@@ -108,8 +108,8 @@ module.exports = {
           .setAuthor(`Added To Queue`, message.client.user.displayAvatarURL({
             dynamic: true
           }))
-          .setDescription(`${track.title}`)
-          .setTimestamp()
+          .setDescription(`[${track.title}](${track.uri})`)
+          .addField(`Requested By : `,`${track.requester}` , true)
    
           if (!player.playing && !player.paused && !player.queue.size) player.play();
           return message.channel.send(trackadd);
