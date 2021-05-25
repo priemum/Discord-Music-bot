@@ -55,7 +55,7 @@ module.exports = {
 
           const playlist = new Discord.MessageEmbed()
           .setColor('#00f70c')
-          .setAuthor(`Adding The Song To the Bot :`, message.client.user.displayAvatarURL({
+          .setAuthor(`Enqueuing playlist:`, message.client.user.displayAvatarURL({
             dynamic: true
           }))
           .setDescription(`${res.playlist.name}\` with ${res.tracks.length} tracks.`)
@@ -67,6 +67,7 @@ module.exports = {
           let max = 5, collected, filter = (m) => m.author.id === message.author.id && /^(\d+|end)$/i.test(m.content);
           if (res.tracks.length < max) max = res.tracks.length;
   
+          
           const results = res.tracks
               .slice(0, max)
               .map((track, index) => `${++index} - `+`[${track.title}](${track.uri})`)
@@ -102,8 +103,16 @@ module.exports = {
           const track = res.tracks[index];
           player.queue.add(track);
 
+          const trackadd = new Discord.MessageEmbed()
+          .setColor('#00f70c')
+          .setAuthor(`Added To Queue`, message.client.user.displayAvatarURL({
+            dynamic: true
+          }))
+          .setDescription(`${track.title}`)
+          .setTimestamp()
+   
           if (!player.playing && !player.paused && !player.queue.size) player.play();
-          
+          return message.channel.send(trackadd);
 
       }
     },
