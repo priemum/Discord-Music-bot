@@ -2,7 +2,7 @@
 - A simple discord.js music bot based on lavalink and erela.js
 - It is Easy Use this bot
 - Designed and Tested on Node.js 
-
+ 
 ## ⚒ Setup ( In Replit or Glitch ) 
 [![Run on Repl.it](https://repl.it/badge/github/MSVFORYOU/Discord-Music-bot)](https://repl.it/github/MSVFORYOU/Discord-Music-bot)
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/MSVFORYOU/Discord-Music-bot)
