@@ -4,10 +4,10 @@
 - Designed and Tested on Node.js 
  
 ## ⚒ Setup ( In Replit or Glitch ) 
-[![Run on Repl.it](https://repl.it/badge/github/MSVFORYOU/Discord-Music-bot)](https://repl.it/github/MSVFORYOU/Discord-Music-bot)
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/MSVFORYOU/Discord-Music-bot)
+[![Run on Repl.it](https://repl.it/badge/github/Just-Msv/Discord-Music-bot)](https://repl.it/github/Just-Msv/Discord-Music-bot)
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/Just-Msv/Discord-Music-bot)
 
-- Import the Repo by typing git clone `https://github.com/MSVFORYOU/Discord-Music-bot` 
+- Import the Repo by typing git clone `https://github.com/Just-Msv/Discord-Music-bot` 
 - Create a bot application at the [discord developer portal](https://discord.com/developers/applications) and add to your discord server.
 - Allow the "Server Member Intent" under the "Privileged Gateway Intents" in the [discord developer panel](https://discord.com/developers/applications). (THIS IS VERY IMPORTANT! The bot will not work propertly without and will not be able to find or kick server members.)
 - In `conifg.json` file in `2` line U can Replace the Token of the bot
