@@ -3,7 +3,7 @@
 - It is Easy Use this bot
 - Designed and Tested on Node.js 
  
-## ⚒ Setup ( In Replit or Glitch ) 
+## ⚒ Setup ( In Replit or Glitch )  
 [![Run on Repl.it](https://repl.it/badge/github/Just-Msv/Discord-Music-bot)](https://repl.it/github/Just-Msv/Discord-Music-bot) 
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/Just-Msv/Discord-Music-bot)
 
