@@ -2,7 +2,7 @@ console.log ("CODED BY MSV")
 
 const { Client, Collection, DiscordAPIError, MessageEmbed } = require("discord.js");
 const { readdirSync } = require("fs");
-const { Manager } = require("erela.js");
+const { Manager } = require("erela.js");              
 const config = require('./config.json');
 const Spotify  = require("erela.js-spotify");
 
